@@ -103,6 +103,10 @@
       transition: all 0.6s ease;
       z-index: 1;
     }
+
+    .nav-menu.active .nav-btn{
+      margin-bottom: 200px;
+    }
   
     .nav-links {
       text-align: center;

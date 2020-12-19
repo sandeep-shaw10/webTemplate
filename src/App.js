@@ -1,5 +1,5 @@
 import React from 'react';                                                      //React component
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';      //Document Object Model - Link
+import { BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom';      //Document Object Model - Link
 import './App.css';                                                                              
 import Navbar from './Components/Navbar';
 import Home from './Components/pages/HomePages/Home';
@@ -20,8 +20,8 @@ function App(){
                 <Route exact path="/service" component={Service}/>
                 <Route exact path="/product" component={Product}/>
                 <Route exact path="/sign-up" component={SignUp}/>
-                <Route path="" component={ErrorPage}/>
-                <Redirect to="/"/>
+                <Route path="/Error404" component={ErrorPage}/>
+                <Redirect to = "/" />
             </Switch>
             <Footer/>
         </Router>

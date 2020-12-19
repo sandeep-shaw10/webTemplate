@@ -58,4 +58,8 @@
   .errorSub{
     font-size: 5vw;
   }
+
+  .errorImg{
+    width: 90vw;
+  }
 }
