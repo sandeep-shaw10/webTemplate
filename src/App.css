@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.errorHead{
+  margin:20px auto;
+  font-size: 60px;
+  animation: warnRed 2s ease-in-out infinite alternate-reverse both;
+}
+
+.errorSub{
+  margin:20px auto;
+  font-size: 30px;
+}
+
+.errorImg{
+  box-sizing: border-box;
+  margin: 50px auto;
+  animation: motion 2s ease-in-out infinite alternate-reverse both;
+}
+
+.errorPage{
+  margin: 10px auto;
+  text-align: center;
+}
+
+/*----------Keyframes---------------*/
+@keyframes motion{
+  0%{transform: translateY(10px);}
+  100%{transform: translateY(-10px);}
+}
+
+@-webkit-keyframes motion{
+  0%{transform: translateY(10px);}
+  100%{transform: translateY(-10px);}
+}
+
+@keyframes warnRed{
+  0%{color: teal;}
+  50%{color: tomato;}
+  100%{color: teal;}
+}
+
+@-webkit-keyframes warnRed{
+  0%{color: teal;}
+  50%{color: tomato;}
+  100%{color: teal;}
+}
+/*----------Media Query-----------*/
+@media (max-width: 754px){
+  .errorHead{
+    font-size: 10vw;
+  }
+  
+  .errorSub{
+    font-size: 5vw;
+  }
+}
