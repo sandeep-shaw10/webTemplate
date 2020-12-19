@@ -20,7 +20,7 @@ function App(){
                 <Route path="/service" exact component={Service}/>
                 <Route path="/product" exact component={Product}/>
                 <Route path="/sign-up" exact component={SignUp}/>
-                <Route path="" exact component={ErrorPage}/>
+                <Route path="" component={ErrorPage}/>
             </Switch>
             <Footer/>
         </Router>
