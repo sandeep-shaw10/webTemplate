@@ -20,6 +20,7 @@ function App(){
                 <Route exact path="/service" component={Service}/>
                 <Route exact path="/product" component={Product}/>
                 <Route exact path="/sign-up" component={SignUp}/>
+                <Route path="" component={ErrorPage}/>
                 <Redirect to="/"/>
             </Switch>
             <Footer/>
