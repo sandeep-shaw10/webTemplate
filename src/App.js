@@ -1,5 +1,5 @@
 import React from 'react';                                                      //React component
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';      //Document Object Model - Link
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';      //Document Object Model - Link
 import './App.css';                                                                              
 import Navbar from './Components/Navbar';
 import Home from './Components/pages/HomePages/Home';
@@ -11,16 +11,16 @@ import ErrorPage from './Components/pages/ErrorPage';
 
 function App(){
     //Router should enclose the the <Link>
-    //To switch the page route we use <Switch><Route></Switch>
+    //To switch the page route we use <Switch><Route></Switch><Route path="" component={ErrorPage}/>
     return(
         <Router>                 
             <Navbar/>
             <Switch>
-                <Route path="/" exact component={Home}/>
-                <Route path="/service" exact component={Service}/>
-                <Route path="/product" exact component={Product}/>
-                <Route path="/sign-up" exact component={SignUp}/>
-                <Route path="" exact component={ErrorPage}/>
+                <Route exact path="/"  component={Home}/>
+                <Route exact path="/service" component={Service}/>
+                <Route exact path="/product" component={Product}/>
+                <Route exact path="/sign-up" component={SignUp}/>
+                <Redirect to="/"/>
             </Switch>
             <Footer/>
         </Router>
