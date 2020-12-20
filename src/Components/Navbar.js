@@ -35,7 +35,7 @@ function Navbar(){
         <IconContext.Provider value={{color : "#ffffff" }}>
             <div className = "navbar">
                 <div className = "navbar-container container">
-                    <Link to = "/" className = "navbar-logo">
+                    <Link to = "/webTemplate/app" className = "navbar-logo">
                         <MdFingerprint className = "navbar-icon" onClick = {closeMobileMenu}/>
                         SHAW
                     </Link>
@@ -44,27 +44,27 @@ function Navbar(){
                     </div>
                     <ul className = {click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links" onClick = {closeMobileMenu}>
+                            <Link to="/webTemplate/app" className="nav-links" onClick = {closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/service" className="nav-links" onClick = {closeMobileMenu}>
+                            <Link to="/webTemplate/service" className="nav-links" onClick = {closeMobileMenu}>
                                 Service
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/product" className="nav-links" onClick = {closeMobileMenu}>
+                            <Link to="/webTemplate/product" className="nav-links" onClick = {closeMobileMenu}>
                                 Product
                             </Link>
                         </li>
                         <li className="nav-btn">
                             {button ?(
-                                <Link to = "/sign-up" className='btn-link'>
+                                <Link to = "/webTemplate/sign-up" className='btn-link'>
                                     <Button buttonStyle="btn--outline" onClick = {closeMobileMenu}>SIGN UP</Button>
                                 </Link>
                             ):(
-                                <Link to = "/sign-up" className="btn-link">
+                                <Link to = "/webTemplate/sign-up" className="btn-link">
                                     <Button buttonStyle="btn--outline" buttonSize="btn--mobile" onClick = {closeMobileMenu}>
                                         SIGN UP
                                     </Button> 

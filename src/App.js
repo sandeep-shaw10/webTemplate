@@ -10,18 +10,18 @@ import SignUp from './Components/pages/SignUp/SignUp';
 import ErrorPage from './Components/pages/ErrorPage';
 
 function App(){
-    //Router should enclose the the <Link>
+    //Router should enclose the the <Link>/webTemplate
     //To switch the page route we use <Switch><Route></Switch><Route path="" component={ErrorPage}/>
     return(
         <Router>                 
             <Navbar/>
             <Switch>
-                <Route exact path="/app"  component={Home}/>
-                <Route exact path="/service" component={Service}/>
-                <Route exact path="/product" component={Product}/>
-                <Route exact path="/sign-up" component={SignUp}/>
-                <Route path="/Error404" component={ErrorPage}/>
-                <Redirect to = "/app" />
+                <Route exact path="/webTemplate/app"  component={Home}/>
+                <Route exact path="/webTemplate/service" component={Service}/>
+                <Route exact path="/webTemplate/product" component={Product}/>
+                <Route exact path="/webTemplate/sign-up" component={SignUp}/>
+                <Route path="/webTemplate/Error404" component={ErrorPage}/>
+                <Redirect from="/webTemplate" to = "/webTemplate/app"/>
             </Switch>
             <Footer/>
         </Router>
