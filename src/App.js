@@ -16,12 +16,12 @@ function App(){
         <Router>                 
             <Navbar/>
             <Switch>
-                <Route exact path="/webTemplate/app"  component={Home}/>
-                <Route exact path="/webTemplate/service" component={Service}/>
-                <Route exact path="/webTemplate/product" component={Product}/>
-                <Route exact path="/webTemplate/sign-up" component={SignUp}/>
-                <Route path="/webTemplate/Error404" component={ErrorPage}/>
-                <Redirect from="/webTemplate" to = "/webTemplate/app"/>
+                <Route exact path="/webTemplate/"  component={Home}/>
+                <Route path="/webTemplate/service" component={Service}/>
+                <Route path="/webTemplate/product" component={Product}/>
+                <Route path="/webTemplate/sign-up" component={SignUp}/>
+                <Route component={ErrorPage}/>
+                <Redirect from="/webTemplate" to = "/"/>
             </Switch>
             <Footer/>
         </Router>

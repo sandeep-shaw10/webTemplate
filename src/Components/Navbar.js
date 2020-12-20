@@ -35,7 +35,7 @@ function Navbar(){
         <IconContext.Provider value={{color : "#ffffff" }}>
             <div className = "navbar">
                 <div className = "navbar-container container">
-                    <Link to = "/webTemplate/app" className = "navbar-logo">
+                    <Link to = "/webTemplate/" className = "navbar-logo">
                         <MdFingerprint className = "navbar-icon" onClick = {closeMobileMenu}/>
                         SHAW
                     </Link>
@@ -44,7 +44,7 @@ function Navbar(){
                     </div>
                     <ul className = {click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <Link to="/webTemplate/app" className="nav-links" onClick = {closeMobileMenu}>
+                            <Link to="/webTemplate/" className="nav-links" onClick = {closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
