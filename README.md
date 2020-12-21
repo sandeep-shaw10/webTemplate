@@ -4,7 +4,7 @@ made using REACT JS which make the content look dynamic
   * `LINK` https://sandeep-shaw10.github.io/webTemplate/
 
 ## Preview
-[ ![Watch the preview](P1_ReactWeb_gif.gif)]
+![Watch the preview](P1_ReactWeb_gif.gif)
 
 ## Build With
 * React JS
