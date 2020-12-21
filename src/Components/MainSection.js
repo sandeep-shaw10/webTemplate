@@ -16,7 +16,7 @@ function MainSection({
                                 <div className = "top-line">{topLine}</div>
                                 <h1 className = {lightText ? 'heading' : 'heading dark'}>{headLine}</h1>
                                 <p className = {lightTextDesc ? 'home__main-subtitle' : 'home__main-subtitle dark'}>{description}</p>
-                                <Link to = "/sign-up">
+                                <Link to = "/webTemplate/sign-up">
                                     <Button buttonSize='btn--wide' buttonColor = 'blue'>
                                         {buttonLabel}
                                     </Button>
