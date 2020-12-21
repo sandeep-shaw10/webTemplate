@@ -1,8 +1,29 @@
-# MODERN WEB LAYOUT USING REACT
-`LINK` https://sandeep-shaw10.github.io/webTemplate/
+# REACT WEBSITE LAYOUT
+This small project demonstrate the basic Single Page Website
+made using REACT JS which make the content look dynamic
+  * `LINK` https://sandeep-shaw10.github.io/webTemplate/
 
-## CREDITS
-  `SVG` www.svgrepo.com
+## Preview
+[ ![Watch the preview](https://github.com/sandeep-shaw10/webTemplate/blob/master/P1_ReactWeb_min.mp4)]
 
-## LICENSE
-_This is a small demonstration of a basic React App which is made by me_
+## Build With
+* React JS
+* JQuery
+* CSS3 & HTML5
+
+## Editor Used
+* Visual Studio Code
+	
+## Deployed With
+* GitBash CMD
+
+## Author
+This is made under the MIT LICENSE >> [ ![LICENSE](LICENSE)]
+
+## Acknowledgement
+* `SVG` http://www.svgrepo.com/
+* `FAVICON` https://realfavicongenerator.net/#.X99Ru9gzZPY
+* `VIDEO` https://www.youtube.com/watch?v=3nLTB_E6XAM&t=1017s
+*  `ROUTING ISSUE RESOLVE BY` https://github.com/rafgraph
+
+### THANK YOU !
