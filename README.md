@@ -18,7 +18,7 @@ made using REACT JS which make the content look dynamic
 * GitBash CMD
 
 ## Author
-This is made under the MIT LICENSE >> [ ![LICENSE](LICENSE)]
+This is made under the MIT LICENSE >> ![LICENSE](LICENSE)
 
 ## Acknowledgement
 * `SVG` http://www.svgrepo.com/
